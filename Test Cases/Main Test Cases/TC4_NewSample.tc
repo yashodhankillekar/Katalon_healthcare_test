@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC4_NewSample</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f22e2934-24c6-42a0-8ac6-3122d512cc77</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>96735b6a-78fb-442d-8fd2-4cc17e41693c</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/YashodhanProfile/Users</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>96735b6a-78fb-442d-8fd2-4cc17e41693c</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>UserName</value>
+      <variableId>5166c1ee-5953-401b-bea6-3552b255bdef</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>96735b6a-78fb-442d-8fd2-4cc17e41693c</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>c8997001-e49a-49be-a3d0-517ef7d39255</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5166c1ee-5953-401b-bea6-3552b255bdef</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c8997001-e49a-49be-a3d0-517ef7d39255</id>
+      <masked>false</masked>
+      <name>encryptedPassword</name>
+   </variable>
+</TestCaseEntity>
